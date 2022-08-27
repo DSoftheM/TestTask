@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Create Studio</title>
+</head>
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<div class="main__container">
+				<div class="main__wrapper">
+					<div class="main__text">
+						<h1>Мастер-классы от Create Studio</h1>
+						<button type="button" class="button">Записаться</button>
+					</div>
+					<div class="main__img">
+						<img src="img/office.png" alt="Фотография офиса">
+					</div>
+				</div>
+			</div>
+		</main>
+		<div class="overlay">
+			<div class="overlay__wrapper">
+				<div class="overlay__background"></div>
+				<div class="overlay__card">
+					<div class="overlay__close"></div>
+					<div class="overlay__title">Заявка на участие</div>
+					<form class="overlay__form form-overlay">
+					<div class="form-overlay__input form-overlay_name">
+						<input type="text" name="name" placeholder="фио" pattern="([А-Яа-яёЁ]+\s+){2}[А-Яа-яёЁ]+" value="б б б">
+					</div>
+					<div class="form-overlay__input overlay_email">
+						<input type="email" name="email" placeholder="E-mail" value="a@a.a">
+					</div>
+					<div class="form-overlay__submit">
+						<input type="submit" value="Отправить">
+					</div>
+					<div class="overlay__status"></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
